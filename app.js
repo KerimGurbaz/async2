@@ -31,8 +31,8 @@ const renderCountries = (data)=>{
       <p class="card-text">${region}</p>
     </div>
     <ul class="list-group list-group-flush">
-      <li class="list-group-item">An item</li>
-      <li class="list-group-item">A second item</li>
+      <li class="list-group-item"><i class="fas fa-lg fa-landmark"></i> ${capital}</li>
+      <li class="list-group-item"><i class="fa-solid fa-comments"></i> ${Object.values(languages)}</li>
       <li class="list-group-item">A third item</li>
     </ul>
   </div>
